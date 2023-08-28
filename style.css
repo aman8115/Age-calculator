@@ -1,0 +1,55 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #beabe3;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+h1{
+    color: #ff00ff	;
+    font-size: 45px ;
+    font-weight: 700;
+}
+#label{
+    font-size: 25px ;
+    color: blue;
+}
+#dateofbirth{
+    height: 50px ;
+    width: 200px ;
+    text-align: center;
+    font-size: 20px ;
+}
+#dateofbirth:hover{
+    background-color: #ff00ff;
+    height: 70px;
+    width: 230px ;
+    color: teal;
+}
+#btn{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 7%;
+    text-align: center;
+}
+#btn:hover{
+    height:60px  ;
+    width: 120px ;
+    border-radius: 50%;
+    background-color: aqua;
+}
+#result{
+    font-size: 30px ;
+    color: #ffff00	;
+}
